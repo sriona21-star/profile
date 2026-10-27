@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>自己紹介ページ</title>
+</head>
+<body>
+
+    <h1>自己紹介</h1>
+
+    <h2>名前</h2>
+    <p>私の名前はキャサリンです。</p>
+
+    <h2>趣味</h2>
+    <p>私の趣味は音楽を聴くことです。</p>
+
+    <img src="img/kyasarin.png" width="200">
+
+    <h2>好きなもの</h2>
+    <ul>
+        <li>大根</li>
+        <li>大きなリボン</li>
+        <li>おしゃれなアクセサリー</li>
+    </ul>
+
+    <h2>口から卵を飛ばす</h2>
+    <ol>
+        <li>口を開ける</li>
+        <li>卵を吐き出す</li>
+        <li>卵が前に飛んでいく</li>
+        <li>プレイヤーが卵を利用して攻撃する</li>
+    </ol>
+
+    <h2>リンク</h2>
+    <p>
+        <a href="https://www.google.com/">Googleを開く</a>
+    </p>
+
+    <h2>1週間の予定</h2>
+    <table border="1">
+        <tr>
+            <th>曜日</th>
+            <th>午前</th>
+            <th>午後</th>
+        </tr>
+        <tr>
+            <th>月曜日</th>
+            <td>寝る</td>
+            <td>アルバイト</td>
+        </tr>
+        <tr>
+            <th>火曜日</th>
+            <td>寝る</td>
+            <td>アルバイト</td>
+        </tr>
+        <tr>
+            <th>水曜日</th>
+            <td>寝る</td>
+            <td>アルバイト</td>
+        </tr>
+    </table>
+
+    <h2>このページの感想を送る</h2>
+    <form method="get">
+        <dl>
+            <dt>
+                <label for="visitor-name">お名前</label>
+            </dt>
+            <dd>
+                <input type="text"
+                       id="visitor-name"
+                       name="visitor"
+                       required
+                       placeholder="ねこ太郎">
+            </dd>
+
+            <dt>いちばんよかったところ</dt>
+            <dd>
+                <label>
+                    <input type="radio" name="best" value="favorite">
+                    好きなもの
+                </label>
+                <label>
+                    <input type="radio" name="best" value="schedule">
+                    1週間の予定
+                </label>
+            </dd>
+
+            <dt>
+                <label for="comment">感想</label>
+            </dt>
+            <dd>
+                <textarea id="comment" name="comment"></textarea>
+            </dd>
+        </dl>
+
+        <button type="submit">送信する</button>
+    </form>
+
+</body>
+</html>
