@@ -1,0 +1,40 @@
+body {
+    font-family: "Hiragino Maru Gothic ProN",
+                 "Yu Gothic",
+                 "Meiryo",
+                 sans-serif;
+}
+
+h1 {
+    color: #ff6699;
+    font-family: "Hiragino Maru Gothic ProN",
+                 "Yu Gothic",
+                 sans-serif;
+}
+img {
+    display: block;
+}
+h2 {
+    display: inline-block;
+    background-color: #ffe6eb;
+    border: 1px solid #ffb6c1;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-family: "Hiragino Maru Gothic ProN",
+                 "Yu Gothic",
+                 "Meiryo",
+                 sans-serif;
+    font-weight: bold;
+    color: #663344;
+}
+table, th, td {
+    border: 1px solid #333333;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #333333;
+}
+.favorite {
+    color: #ff6699;
+    font-weight: bold;
+}
